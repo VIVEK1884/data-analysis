@@ -1,13 +1,13 @@
-# data-a  nalysis
-data analysis portfolio  
-import pandas as pd   
-import matplotlib.pyplot as plt  
-import numpy as np  
-import seaborn as sns  
-from sklearn.pipeline import Pipeline  
-from sklearn.preprocessing import StandardScaler,PolynomialFeatures   
-from sklearn.linear_model import LinearRegression  
-%matplotlib inline  
+ data-analysis
+##data analysis portfolio  
+### import pandas as pd   
+### import matplotlib.pyplot as plt  
+### import numpy as np  
+### import seaborn as sns  
+### from sklearn.pipeline import Pipeline  
+### from sklearn.preprocessing import StandardScaler,PolynomialFeatures   
+### from sklearn.linear_model import LinearRegression  
+### %matplotlib inline  
 In [2]:
 file_name='https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/DA0101EN/coursera/project/kc_house_data_NaN.csv'  
 df=pd.read_csv(file_name)  
@@ -21,7 +21,7 @@ df.head()
 4	4	1954400510	20150218T000000	510000.0	3.0	2.00	1680	8080	1.0	0	...	8	1680  	0	1987	0	98074	47.6168	-122.045	1800	7503
 5 rows × 22 columns  
 print(df.dtypes)  
-Unnamed: 0         int64    
+#### Unnamed: 0         int64    
 id                 int64
 date              object   
 price            float64  
